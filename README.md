@@ -9,10 +9,7 @@
 <img width="674" height="358" alt="image" src="https://github.com/user-attachments/assets/86be15b5-3153-4c34-af1e-cbe3b9015b08" />
 
 
-
-<img width="600" height="356" alt="image" src="https://github.com/user-attachments/assets/ba320d42-15d7-447d-a118-40333fba39ad" />
-
-
+Большинство пользователей с мобильных устройств. С компьютера сессии дольше и часто на более крупную сумму. Кол-во сессий и кол-во заказов примерно равны.
 
 <img width="1818" height="107" alt="image" src="https://github.com/user-attachments/assets/4d7143af-16a2-4754-9435-f89fda025b69" />
 
