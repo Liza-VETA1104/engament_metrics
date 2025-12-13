@@ -1,4 +1,4 @@
-Паттерны активности: Как меняется DAU/MAU/Sticky factor по месяцам? Есть ли сезонность?
+Паттерны активности: 
 
 
 <img width="313" height="195" alt="image" src="https://github.com/user-attachments/assets/2ff0a98d-07d9-419d-b999-b76491b1986e" />
@@ -6,6 +6,8 @@
 Активность снижается с января по июнь — вероятно, сезонный фактор. 
 
 <img width="674" height="358" alt="image" src="https://github.com/user-attachments/assets/86be15b5-3153-4c34-af1e-cbe3b9015b08" />
+
+Сегментация по устройствам
 
  Mobile:
 Доминирует по доле пользователей (68%).
