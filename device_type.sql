@@ -29,8 +29,7 @@ user_orders as (
     select 
         user_id,
         count(distinct order_id) as orders_count,
-        sum(total_amount) as total_revenue,
-        avg(total_amount) as avg_order_value
+        sum(total_amount) as total_revenue
     from orders
     group by user_id
 ),
@@ -42,8 +41,7 @@ user_summary as (
         ub.avg_session_minutes,
         ub.total_sessions,
         coalesce(uo.orders_count, 0) as orders_count,
-        coalesce(uo.total_revenue, 0) as total_revenue,
-        coalesce(uo.avg_order_value, 0) as avg_order_value
+        coalesce(uo.total_revenue, 0) as total_revenue        
     from user_behavior ub
     join primary_device pd on ub.user_id = pd.user_id
     left join user_orders uo on ub.user_id = uo.user_id
