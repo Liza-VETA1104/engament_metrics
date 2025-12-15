@@ -4,7 +4,7 @@ with user_primary_device as (  --выбираем приоритетное ус�
         device_type,
         row_number() over (
             partition by user_id 
-            order by count(*) desc, max(session_start) desc
+            order by count(*) desc, max(session_start) desc, device_type
         ) as device_rank
     from user_sessions
     group by user_id, device_type
@@ -32,7 +32,6 @@ user_orders as (
         sum(total_amount) as total_revenue,
         avg(total_amount) as avg_order_value
     from orders
-    where extract(month from order_date) = 2
     group by user_id
 ),
 user_summary as (
